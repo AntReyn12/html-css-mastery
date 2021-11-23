@@ -103,3 +103,34 @@ tfoot tr {
 p {
   font-size: 20px;
 }
+
+/* CSS PRACTICE SECTION */
+.box1 {
+  background: red;
+  padding: 20px;
+  width: 400px;
+}
+
+.box2 {
+  background: black;
+  padding: 20px;
+  color: white;
+  width: 300px;
+}
+
+.box2 h1 {
+  background: yellow;
+  color: red;
+}
+
+.box3 {
+  background: purple;
+  padding: 20px;
+  width: 400px;
+}
+
+.box4 {
+  background: orange;
+  padding: 20px;
+  width: 300px;
+}
