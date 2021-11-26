@@ -4,6 +4,7 @@
     <title>Forms</title>
     <meta name="description" content="This is the about page." />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/main.css" />
   </head>
 
@@ -23,7 +24,7 @@
     <h2>Save your information here:</h2>
     <div class="forms">
       <form action="form.html" method="POST">
-        <p>
+        <p class="forms-p">
           <label>Title</label><br />
           <label>
             <input type="radio" name="title" value="mr" />
@@ -38,27 +39,27 @@
             Miss
           </label>
         </p>
-        <p>
+        <p class="forms-p">
           <label>First name</label><br />
           <input type="text" name="first_name" />
         </p>
-        <p>
+        <p class="forms-p">
           <label>Last name</label><br />
           <input type="text" name="last_name" />
         </p>
-        <p>
+        <p class="forms-p">
           <label>Email</label><br />
           <input type="email" name="email" required />
         </p>
-        <p>
+        <p class="forms-p">
           <label>Phone number</label><br />
           <input type="tel" name="phone" />
         </p>
-        <p>
+        <p class="forms-p">
           <label>Password</label><br />
           <input type="password" name="password" />
         </p>
-        <p>
+        <p class="forms-p">
           <label>Country</label><br />
           <select>
             <option>China</option>
@@ -68,13 +69,13 @@
             <option>Brazil</option>
           </select>
         </p>
-        <p>
+        <p class="forms-p">
           <label>
             <input type="checkbox" value="terms" />
             I agree to the <a href="/terms">terms and conditions</a>
           </label>
         </p>
-        <p>
+        <p class="forms-p-button">
           <button>Sign up</button>
           <button type="reset">Reset form</button>
         </p>
