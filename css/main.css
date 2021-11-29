@@ -169,6 +169,8 @@ tfoot tr {
   padding: 20px;
   color: white;
   width: 100%;
+  position: fixed;
+  bottom: 0;
 }
 
 .box2 h1 {
@@ -185,4 +187,33 @@ tfoot tr {
   background: orange;
   padding: 20px;
   width: 100%;
+}
+
+.notification {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: grey;
+  width: 75px;
+  padding: 10px;
+  margin-top: 25px;
+  margin-left: 25px;
+  border-radius: 15px;
+  color: black;
+  position: relative;
+}
+
+.number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 20px;
+  background-color: red;
+  color: white;
+  font-size: 14px;
+  border-radius: 50%;
+  position: absolute;
+  top: -8px;
+  right: -10px;
 }
